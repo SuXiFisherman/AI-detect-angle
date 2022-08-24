@@ -36,4 +36,6 @@ def DrawPose(cap, point):
         img = cv2.resize(img, (500,800))
         cv2.imshow("Image", img)
         cv2.waitKey(10)
-        print(lmlist[point])
+        
+cap = cv2.VideoCapture("Put Ur video here.mp4")
+DrawPose(cap)
