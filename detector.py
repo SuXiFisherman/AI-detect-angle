@@ -5,7 +5,7 @@ import mediapipe as mp
 import time
 import math
 
-def DrawPose(cap, point):
+def DrawPose(cap):
     mpPose = mp.solutions.pose
     mpDraw = mp.solutions.drawing_utils
     pTime = 0
