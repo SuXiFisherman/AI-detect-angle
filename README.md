@@ -8,4 +8,4 @@ Please use "detector.py"
 
 Fuction 2:
 Calculate the angle between three dots
-Please use "findAngle.py"
+Please use "FindAngle.py"
